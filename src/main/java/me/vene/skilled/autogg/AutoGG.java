@@ -14,7 +14,7 @@
    private Minecraft mc = Minecraft.getMinecraft();
    
    public AutoGG() throws IOException {
-     String rawTriggers = IOUtils.toString(new URL("https://gist.githubusercontent.com/minemanpi/72c38b0023f5062a5f3eba02a5132603/raw/triggers.txt"));
+     String rawTriggers = "fix";
      this.triggers = rawTriggers.split("\n");
    }
 
